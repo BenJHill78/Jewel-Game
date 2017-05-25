@@ -1,0 +1,12 @@
+    .crystalImg1,.crystalImg2,.crystalImg3,.crystalImg4 {
+      width: 125px;
+      height: 125px;
+
+    }
+
+body {
+	background-image: "../assets/images/background.jpg"
+}
+.span {
+	text-align: center;
+}
