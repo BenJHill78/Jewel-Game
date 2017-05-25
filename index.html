@@ -7,26 +7,17 @@
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   <script type="text/javascript" src="assets/javascript/game.js"></script>
-  <script>
-    $( document ).ready(function() {
-      console.log( "document loaded" );
-    });
-  </script>
-
 
   <!-- Added a link to Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
+  <!-- Result Panel -->
+  <div id="title"><h1>Lightsaber Crystal War<span id="panel-title"></span></h1></div>
 
-  <h1>Crystal Game.<span id="panel-title"></span></h1>
-
-  <div id="game"></div>
   <div class="container">
-
     <div class="row">
-
-      <!-- Crystals -->
+      <!-- Instructions panel -->
       <div class="col-lg-4">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -39,7 +30,7 @@
         </div>
       </div>
 
-      <!-- Result Panel -->
+      <!-- Crystals Panel -->
       <div class="col-lg-4">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -47,12 +38,12 @@
           </div>
           <div class="panel-body">
             <div id="crystals">
-              
-
             </div>
           </div>
         </div>
       </div>
+
+      <!-- Results Panel -->
       <div class="col-lg-4">
         <div class="panel panel-default">
           <div class="panel-heading">
@@ -60,15 +51,15 @@
           </div>
           <div class="panel-body">
             <div id="pointsToReach"></div>
-            <h1 id="operator"></h1>
             <h1 id="second-number"></h1>
             <hr>
-            <h1 id="result"> Results</h1>
+            <h1 id="result"></h1>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- Javascript link -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 </body>
 </html>
