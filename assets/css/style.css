@@ -3,15 +3,18 @@
     	height: 125px;
 
     }
+    
     body {
     	background-image: url("../images/background.jpg");
     	background-repeat: no-repeat;
     	background-size: cover;
     }
+
     #title {
     	text-align: center;
     	background-color: grey;
     }
+
     panel-heading {
     	float: center;
     }
